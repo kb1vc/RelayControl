@@ -15445,7 +15445,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="R9" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M-COPPER"/>
 <part name="T2" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1" value="MMBT3904"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="1206" value="GREEN"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
@@ -15455,6 +15454,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="T4" library="transistor-neu-to92" deviceset="*-PNP-" device="SOT23-BEC" technology="MMBT3906LT1" value="MMBT3906"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C1206K" value="0.15"/>
+<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 </parts>
 <sheets>
 <sheet>
@@ -15525,7 +15525,6 @@ PTT to +12 -- Tie SJ3 pins 1,2</text>
 </instance>
 <instance part="R9" gate="G$1" x="-236.22" y="30.48"/>
 <instance part="R10" gate="G$1" x="-187.96" y="30.48"/>
-<instance part="LOGO1" gate="G$1" x="-248.92" y="210.82"/>
 <instance part="T2" gate="G$1" x="-226.06" y="30.48" smashed="yes">
 <attribute name="NAME" x="-220.98" y="30.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-220.98" y="25.4" size="1.778" layer="96"/>
@@ -15547,6 +15546,7 @@ PTT to +12 -- Tie SJ3 pins 1,2</text>
 </instance>
 <instance part="R11" gate="G$1" x="-226.06" y="127"/>
 <instance part="C3" gate="G$1" x="-124.46" y="162.56"/>
+<instance part="LOGO2" gate="G$1" x="-248.92" y="208.28"/>
 </instances>
 <busses>
 </busses>
